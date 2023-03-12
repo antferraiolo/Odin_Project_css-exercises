@@ -1,5 +1,20 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 16px;
+  text-align: center;
+}
+
+.s2{
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
+
+.s3{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,13 +22,12 @@ body {
 
 img {
   width: 100px;
-  height: auto;
+  height: 100px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 30px;
 }
 
 /* do not edit this footer */
@@ -28,20 +42,3 @@ img {
   justify-content: center;
   background: #eee;
 }
-
-.s2{
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  justify-content: space-between;
-  margin: 30px 10px;
-}
-
-.s3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  
-}
-
